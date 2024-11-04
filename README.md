@@ -10,7 +10,7 @@ Created in 38 minutes
 
 ##	▶ Example ◀
 ```lua
-local KeySystem = loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/LuaU-Free-Key-System-UI/main/Lib.lua"))()
+local KeySystem = loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/LuaU-Free-Key-System-UI/refs/heads/main/source.lua"))()
 local KeyValid = false
 local response = KeySystem:Init({
 	Debug=false, -- <bool> Prints some output in console when true
@@ -35,7 +35,7 @@ if not response or not KeyValid then return end
 
 ##	▶ [For KeyGuardian](https://keyguardian.org) ◀
 ```lua
-local KeyValid,KeyPremium, KeysystemLibrary, KeyGuardLibrary = false,false,loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/LuaU-Free-Key-System-UI/main/Lib.lua"))(),loadstring(game:HttpGet("https://cdn.keyguardian.org/library/v1.0.0.lua"))()
+local KeyValid,KeyPremium, KeysystemLibrary, KeyGuardLibrary = false,false,loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/LuaU-Free-Key-System-UI/refs/heads/main/source.lua"))(),loadstring(game:HttpGet("https://cdn.keyguardian.org/library/v1.0.0.lua"))()
 
 KeyGuardLibrary.Set({
 	publicToken = "your publicToken",
