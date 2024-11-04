@@ -1,5 +1,6 @@
 # Free Key System UI
 Simple free key system
+Created in 38 minutes
 
 ##	▶ Screenshots ◀
 ![Screenshot 1](https://github.com/OopssSorry/LuaU-Free-Key-System-UI/blob/main/image1.png)
@@ -63,4 +64,7 @@ local KSresponse = KeysystemLibrary:Init({
 if not KSresponse or not KeyValid then return end 
 
 -- YOUR SCRIPT HERE
+if KeyPremium then
+	print("Key is premium!")
+end
 ```
