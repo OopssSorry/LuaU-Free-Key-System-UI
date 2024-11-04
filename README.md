@@ -4,7 +4,10 @@ Simple free key system
 Created in 38 minutes
 
 - Draggable
+- Save Key
 - Animations
+- Debug mode
+
 
 ##	▶ Screenshots ◀
 ![Screenshot 1](https://github.com/OopssSorry/LuaU-Free-Key-System-UI/blob/main/image1.png)
