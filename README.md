@@ -1,14 +1,16 @@
 # Free Key System UI
-Simple free key system
+Simple free key system (because of that obfuscated)
 
-Created in 38 minutes
+Created in 1 hour
 
-- Draggable
+- Draggable (pc only)
 - Save Key
 - Animations
 - Debug mode
+- Environment check
+- Very fast
 
-
+*All verification is on your script side (cracking by lib side is impossible)*
 ##	▶ Screenshots ◀
 ![Screenshot 1](https://github.com/OopssSorry/LuaU-Free-Key-System-UI/blob/main/image1.png)
 ![Screenshot 2](https://github.com/OopssSorry/LuaU-Free-Key-System-UI/blob/main/image2.png)
@@ -37,6 +39,7 @@ local response = KeySystem:Init({
 })
 
 if not response or not KeyValid then return end
+-- HERE YOUR SCRIPT
 ```
 
 ##	▶ [For KeyGuardian](https://keyguardian.org) ◀
@@ -71,6 +74,8 @@ local KSresponse = KeysystemLibrary:Init({
 if not KSresponse or not KeyValid then return end 
 
 -- YOUR SCRIPT HERE
+
+-- Example of checking is user have a premium:
 if KeyPremium then
 	print("Key is premium!")
 end
