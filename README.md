@@ -18,7 +18,7 @@ Created in 1 hour
 
 **Supported Services:**
 - [Key Guardian](https://github.com/OopssSorry/LuaU-Free-Key-System-UI?tab=readme-ov-file#-for-keyguardian-)
-- [Key KeyRBLX](https://github.com/OopssSorry/LuaU-Free-Key-System-UI?tab=readme-ov-file#-for-keyrblx-)
+- [KeyRBLX](https://github.com/OopssSorry/LuaU-Free-Key-System-UI?tab=readme-ov-file#-for-keyrblx-)
 - Pelican Development *soon*
 
 ##	▶ Example ◀
